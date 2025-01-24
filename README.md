@@ -28,4 +28,4 @@ Screenshot showcasing the second feature.
 ## Installation
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/SamX64/LueinHire_Frontend_Assignment.git
