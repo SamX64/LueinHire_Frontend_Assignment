@@ -1,0 +1,289 @@
+/* General Reset */
+/* Resets margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+/* Sets the background color, line height, and text color */
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+/* Styling for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #3c255e; /* Dark purple background */
+    color: #fff;
+}
+
+/* Logo Section in Navbar */
+/* Styling for the logo */
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Navigation Menu */
+/* Styling for the list items in the navbar */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s; /* Smooth hover transition */
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+/* Hero Section */
+/* Styling for the hero section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #250157, #14006b); /* Gradient background */
+    color: white;
+}
+
+/* Hero Section Button */
+.hero .btn {
+    margin-top: 30px;
+    background-color: #ffd700; /* Gold button color */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.hero .btn:hover {
+    background-color: #fff; /* Changes background to white on hover */
+}
+
+/* Features Section */
+/* Container for core platform offerings */
+.features {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6200ea; /* Purple heading */
+}
+
+/* Carousel */
+/* Styling for the carousel */
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Cards within the carousel */
+/* General styles for the card container */
+.card-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Individual Cards */
+.card {
+  flex: 0 0 300px; /* Fixed card width */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+/* Enlarge card on hover */
+.card:hover {
+  transform: scale(1.1); /* Scale the card by 10% */
+}
+
+/* Card Titles */
+.card h3 a {
+    color: #6200ea; /* Purple link color */
+    text-decoration: none;
+}
+
+.card h3 a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+.card p {
+    margin: 10px 0; /* Spacing between card content */
+}
+
+/* Card Button */
+.card .btn {
+    background-color: #230152; /* Deep purple button */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #9c27b0; /* Lighter purple on hover */
+}
+
+/* Carousel Navigation Arrows */
+.arrow {
+    background: none;
+    border: none;
+    font-size: 2rem; /* Large arrow size */
+    cursor: pointer;
+    color: #6200ea; /* Purple arrow color */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000; /* Ensures arrows are above other elements */
+}
+
+/* Left and Right Arrows Positioning */
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+/* Footer */
+/* Footer layout and styling */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3b005b; /* Dark purple background */
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1 1 250px; /* Flexible section size */
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Footer Titles */
+.footer-section h3,
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Slightly larger font size for headings */
+}
+
+/* Footer Links and Text */
+.footer-section p,
+.footer-section a {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+/* Footer Links List */
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+/* Social Icons in Footer */
+.footer-section .social-icons img {
+    width: 30px; /* Icon size */
+    margin-right: 10px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    flex-basis: 100%; /* Full width */
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #fff; /* Divider line */
+    padding-top: 10px;
+    font-size: 0.8em; /* Smaller text size */
+}
+
+/* scroll bar */
+/* Style the scrollbar itself */
+::-webkit-scrollbar {
+  width: 12px;  
+  height: 12px; 
+}
+
+/* Style the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+  border-radius: 10px; 
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+  border: 2px solid #f1f1f1;  
+}
+
+/* Style the thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+/* Style icons */
+footer i {
+  margin-right: 8px;  /* Space between the icon and text */
+  color: #ffffff;        /* Icon color */
+}
+
+/* Add margin between paragraphs (address, phone, email) */
+footer p {
+    margin-bottom: 16px; 
+    margin-top: 10px;
+}
+
+/* Optional: Adjust margin on the last element */
+footer p:last-child {
+  margin-bottom: 0; 
+}
