@@ -19,11 +19,9 @@ Redesign the LueinHire Candidate Page as a static, responsive webpage using HTML
 - JavaScript: Interactivity
 
 ## Images
-![Feature 1](image_1.png)  
-Screenshot showcasing the first feature.
+![Image 1](image_1.png)  
 
-![Feature 2](image_2.png)  
-Screenshot showcasing the second feature.
+![Image 2](image_2.png)  
 
 ## Installation
 1. Clone or download the repository:
